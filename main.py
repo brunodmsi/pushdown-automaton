@@ -18,19 +18,19 @@ while choice != 5:
   grammar = raw_input("\nEscolha a Gramatica:\n  1 -> [G1]\n  2 -> [G2]\n  3 -> [G3]\n  4 -> [G4]\n  5 -> Sair\n -> ") 
 
   if grammar == "1":
-    entry = raw_input("\nDigite a linguagem -> ")
+    entry = raw_input("\nDigite a palavra -> ")
     Grammars.G1(entry)
 
   elif grammar == "2":
-    entry = raw_input("\nDigite a linguagem -> ")
+    entry = raw_input("\nDigite a palavra -> ")
     Grammars.G2(entry)
 
   elif grammar == "3":
-    entry = raw_input("\nDigite a linguagem -> ")
+    entry = raw_input("\nDigite a palavra -> ")
     Grammars.G3(entry)
 
   elif grammar == "4":
-    entry = raw_input("\nDigite a linguagem -> ")
+    entry = raw_input("\nDigite a palavra -> ")
     Grammars.G4(entry)
 
   elif grammar == "5":
